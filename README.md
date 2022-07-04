@@ -57,8 +57,7 @@ Use following code to project images to latent space and perform anomaly detecti
 
 `$ python projector.py --query_save_path=[DATASET_PATH]`
 
-- To run the demo code
-`$ python projector.py --query_save_path=./demos`
+- To run the demo code: `$ python projector.py --query_save_path=./demos` which takes about 5 minutes for each CT scan
 
 
 ## License
