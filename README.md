@@ -53,7 +53,7 @@ To use pretrained model checkpoint, download following files and place at the pr
 - latent statistics: https://drive.google.com/file/d/1kTZXMOBipL8xgKHPK5Q7ymt38aRg-jEw/view?usp=sharing
 
 ### Project images to latent space
-Following code project images to latent space and perform anomaly detection
+Use following code to project images to latent space and perform anomaly detection
 
 `$ python projector.py --query_save_path=[DATASET_PATH]`
 
