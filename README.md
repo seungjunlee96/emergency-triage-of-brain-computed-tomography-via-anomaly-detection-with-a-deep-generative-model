@@ -57,6 +57,9 @@ Use following code to project images to latent space and perform anomaly detecti
 
 `$ python projector.py --query_save_path=[DATASET_PATH]`
 
+- To run the demo code
+`$ python projector.py --query_save_path=./demos`
+
 
 ## License
 This project is covered under the **GNU GENERAL PUBLIC LICENSE Version 3 (GPLv3)**.
