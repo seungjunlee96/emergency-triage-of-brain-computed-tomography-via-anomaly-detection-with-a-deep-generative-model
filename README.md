@@ -63,8 +63,8 @@ python3 -m torch.distributed.launch --nproc_per_node=<n_gpus> --master_port=8888
 
 ### Pretrained model checkpoint
 To use pretrained model checkpoint, download following files and place at the project directory.
-- model checkpoint: https://mysnu-my.sharepoint.com/:u:/g/personal/lsjj096_seoul_ac_kr/EQj0QNwv5Q1MriLA8VOm30sBBWltrhiE6YHZWf6lWUMDWA
-- latent statistics: https://mysnu-my.sharepoint.com/:u:/g/personal/lsjj096_seoul_ac_kr/EfUe0kqBaWZFjJ_0VioXcZ4BjI5fVQt550KS3KhO_KbZxw
+- model checkpoint ([link](https://mysnu-my.sharepoint.com/:u:/g/personal/lsjj096_seoul_ac_kr/EQj0QNwv5Q1MriLA8VOm30sBBWltrhiE6YHZWf6lWUMDWA))
+- latent statistics ([link](https://mysnu-my.sharepoint.com/:u:/g/personal/lsjj096_seoul_ac_kr/EfUe0kqBaWZFjJ_0VioXcZ4BjI5fVQt550KS3KhO_KbZxw))
 
 ### Project images to latent space
 Use following code to project images to latent space and perform anomaly detection
