@@ -10,7 +10,7 @@
 This repository contains the official Pytorch implementation of the following paper:
 
 > **[Emergency triage of brain computed tomography via anomaly detection with a deep generative model](https://www.nature.com/articles/s41467-022-31808-0)**<br>
-> Seungjun Lee, Boryeong Jeong, Minjee Kim, Ryoungwoo Jang, Wooyul Paik, Jiseon Kang, Won Jung Chung, Gil-Sun Hong & Namkug Kim<br>
+> Authors: **Seungjun Lee**, Boryeong Jeong, Minjee Kim, Ryoungwoo Jang, Wooyul Paik, Jiseon Kang, Won Jung Chung, Gil-Sun Hong & Namkug Kim<br>
 > https://www.nature.com/articles/s41467-022-31808-0
 > 
 > **Abstract:** Triage is essential for the early diagnosis and reporting of neurologic emergencies. Herein, we report the development of an anomaly detection algorithm (ADA) with a deep generative model trained on brain computed tomography (CT) images of healthy individuals that reprioritizes radiology worklists and provides lesion attention maps for brain CT images with critical findings. In the internal and external validation datasets, the ADA achieved area under the curve values (95% confidence interval) of 0.85 (0.81–0.89) and 0.87 (0.85–0.89), respectively, for detecting emergency cases. In a clinical simulation test of an emergency cohort, the median wait time was significantly shorter post-ADA triage than pre-ADA triage by 294 s (422.5 s [interquartile range, IQR 299] to 70.5 s [IQR 168]), and the median radiology report turnaround time was significantly faster post-ADA triage than pre-ADA triage by 297.5 s (445.0 s [IQR 298] to 88.5 s [IQR 179]) (all p < 0.001).
