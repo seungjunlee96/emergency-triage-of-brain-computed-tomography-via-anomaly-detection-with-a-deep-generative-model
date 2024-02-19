@@ -56,6 +56,13 @@ To use pretrained model checkpoint, download following files and place at the pr
 - model checkpoint ([LINK](https://drive.google.com/file/d/1QpzO2f4a8lPgsRpbOMLzkNydf_N3sWnC/view?usp=sharing))
 - latent statistics ([LINK](https://drive.google.com/file/d/1MgkCn2ZmciPjfwhN-qQPAIC2p0JS-ULy/view?usp=sharing))
 
+or alternatively using terminal:
+```bash
+$ pip install gdown
+$ python -m gdown https://drive.google.com/uc?id=1QpzO2f4a8lPgsRpbOMLzkNydf_N3sWnC # download model checkpoint
+$ python -m gdown https://drive.google.com/uc?id=1MgkCn2ZmciPjfwhN-qQPAIC2p0JS-ULy # download latent statistics
+```
+
 ### 3.3. Anomaly Detection
 Project images to latent space and detect anomalies:
 
